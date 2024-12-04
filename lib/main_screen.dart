@@ -36,7 +36,14 @@ class _MainScreenState extends State<MainScreen> {
           iconSize: _iconSize.toDouble(),
           iconColor: _iconColor,
         ),
-        bottomNavigationBar: MainBottomBar(),
+        bottomNavigationBar: MainBottomBar(
+          allowChangePrimerColor: _allowChangePrimerColor,
+          onColorChange: (newColor) {
+            setState(() {
+              _iconColor = newColor;
+            });
+          },
+        ),
       ),
     );
   }
