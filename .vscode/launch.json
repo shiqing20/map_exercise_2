@@ -1,0 +1,128 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "$RLHSNAZ",
+            "cwd": "$Recycle.Bin\\S-1-5-21-1911442901-3873303336-1853296673-1001\\$RLHSNAZ",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "$RLHSNAZ (profile mode)",
+            "cwd": "$Recycle.Bin\\S-1-5-21-1911442901-3873303336-1853296673-1001\\$RLHSNAZ",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "$RLHSNAZ (release mode)",
+            "cwd": "$Recycle.Bin\\S-1-5-21-1911442901-3873303336-1853296673-1001\\$RLHSNAZ",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "project1",
+            "cwd": "Users\\Shiqing\\project1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "project1 (profile mode)",
+            "cwd": "Users\\Shiqing\\project1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "project1 (release mode)",
+            "cwd": "Users\\Shiqing\\project1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "xchange_app",
+            "cwd": "Windows\\System32\\xchange_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "xchange_app (profile mode)",
+            "cwd": "Windows\\System32\\xchange_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "xchange_app (release mode)",
+            "cwd": "Windows\\System32\\xchange_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "codebase",
+            "cwd": "Users\\Shiqing\\Downloads\\codebase",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "codebase (profile mode)",
+            "cwd": "Users\\Shiqing\\Downloads\\codebase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "codebase (release mode)",
+            "cwd": "Users\\Shiqing\\Downloads\\codebase",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "xchange_app",
+            "cwd": "Users\\Shiqing\\Pictures\\xchange_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "xchange_app (profile mode)",
+            "cwd": "Users\\Shiqing\\Pictures\\xchange_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "xchange_app (release mode)",
+            "cwd": "Users\\Shiqing\\Pictures\\xchange_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "xchange_app",
+            "cwd": "Users\\Shiqing\\Videos\\xchange_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "xchange_app (profile mode)",
+            "cwd": "Users\\Shiqing\\Videos\\xchange_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "xchange_app (release mode)",
+            "cwd": "Users\\Shiqing\\Videos\\xchange_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
