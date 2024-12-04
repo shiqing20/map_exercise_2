@@ -32,6 +32,43 @@ class _MainScreenState extends State<MainScreen> {
           },
           allowResize: _allowResize,
         ),
+        drawer: Drawer(
+            backgroundColor: Colors.grey[100],
+            child: ListView(
+              children: [
+                SizedBox(
+                  height: 8.0,
+                ),
+                Card(
+                  margin: EdgeInsets.all(8.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(16.0),
+                    child: CheckboxListTile(
+                        title: Text('Allow Resize?'),
+                        value: _allowResize,
+                        onChanged: (bool? value) {
+                          setState(() {
+                            _allowResize = value ?? false;
+                          });
+                        }),
+                  ),
+                ),
+                Card(
+                  margin: EdgeInsets.all(8.0),
+                  child: Padding(
+                    padding: EdgeInsets.all(16.0),
+                    child: CheckboxListTile(
+                        title: Text('Allow Change Primer Color?'),
+                        value: _allowChangePrimerColor,
+                        onChanged: (bool? value) {
+                          setState(() {
+                            _allowChangePrimerColor = value ?? false;
+                          });
+                        }),
+                  ),
+                ),
+              ],
+            )),
         body: MainBody(
           iconSize: _iconSize.toDouble(),
           iconColor: _iconColor,
